@@ -1,0 +1,21 @@
+{
+  "name": "bad-habitica-sdk",
+  "version": "1.0.3",
+  "description": "An sdk written for habitica",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Derek Provance (derek@provance.me)",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
